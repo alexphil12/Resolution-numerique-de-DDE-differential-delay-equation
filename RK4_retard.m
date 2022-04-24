@@ -21,7 +21,7 @@ for k=N_ret+1:1:2*N_max+N_ret+2
     sol(k)=sol(k-1)+(1/6)*(K1+2*K2+2*K3+K4);
 end
 
-%on calcul les termes suivant par la méthode d'euler( Y(N)=Y(N-1) +h*Y'(N-1) en prenant ici une
+%on calcul les termes suivant par la méthode de Runge Kunte d'ordre 4 en prenant ici une
 %fonction de retard 'sinusoïdale'.
 end
 
